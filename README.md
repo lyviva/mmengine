@@ -58,9 +58,15 @@ Major features:
 
 ## What's New
 
-v0.3.2 was released in 2022-11-24.
+v0.5.0 was released in 2023-01-20.
 
-Read [Changelog](./docs/en/notes/changelog.md#v032-11242022) for more details.
+Highlights:
+
+- Add `BaseInferencer` to provide a general inference interface
+- Provide `ReduceOnPlateauParamScheduler` to adjust learning rate by metric
+- Deprecate support for Python3.6
+
+Read [Changelog](./docs/en/notes/changelog.md#v050-01202023) for more details.
 
 ## Installation
 
@@ -230,7 +236,7 @@ runner.train()
 - [Config](https://mmengine.readthedocs.io/en/latest/tutorials/config.html)
 - [BaseDataset](https://mmengine.readthedocs.io/en/latest/advanced_tutorials/basedataset.html)
 - [Data Transform](https://mmengine.readthedocs.io/en/latest/tutorials/data_transform.html)
-- [Initialization](https://mmengine.readthedocs.io/en/latest/advanced_tutorials/initialize.html)
+- [Weight Initialization](https://mmengine.readthedocs.io/en/latest/advanced_tutorials/initialize.html)
 - [Visualization](https://mmengine.readthedocs.io/en/latest/advanced_tutorials/visualization.html)
 - [Abstract Data Element](https://mmengine.readthedocs.io/en/latest/advanced_tutorials/data_element.html)
 - [Distribution Communication](https://mmengine.readthedocs.io/en/latest/advanced_tutorials/distributed.html)

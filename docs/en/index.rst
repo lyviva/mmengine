@@ -47,6 +47,7 @@ You can switch between Chinese and English documents in the lower-left corner of
    advanced_tutorials/fileio.md
    advanced_tutorials/manager_mixin.md
    advanced_tutorials/cross_library.md
+   advanced_tutorials/test_time_augmentation.md
 
 .. toctree::
    :maxdepth: 1
@@ -81,6 +82,7 @@ You can switch between Chinese and English documents in the lower-left corner of
    mmengine.evaluator <api/evaluator>
    mmengine.structures <api/structures>
    mmengine.dataset <api/dataset>
+   mmengine.infer <api/infer>
    mmengine.device <api/device>
    mmengine.hub <api/hub>
    mmengine.logging <api/logging>
